@@ -28,7 +28,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <script type="text/javascript" src="js/ajax1.10.0.min.js"></script>
   <script src="js/wow.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- 鎖定版本到 v7 避免按鈕更新元件跑版 -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/main.layout.css" type="text/css" />
   <link rel="stylesheet" href="css/content.layout.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:100,300,400,500,700,900&display=swap"
@@ -229,7 +230,8 @@
 
   </div><!--wraper end-->
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- 鎖定版本到 v7 避免按鈕更新元件跑版 -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script>
     var swiper1 = new Swiper('#swiper1', {
       loop: true,
@@ -262,7 +264,6 @@
         delay: 5000, // 延遲 5 秒
         disableOnInteraction: false,
       },
-      pagination: false // 關閉 pagination dots
     });
   </script>
 
